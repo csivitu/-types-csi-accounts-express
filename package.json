@@ -11,6 +11,9 @@
     "type": "git",
     "url": "https://gitlab.com/csivit/accounts/csi-accounts-express-types.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.csivit.com"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
