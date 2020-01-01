@@ -1,11 +1,21 @@
 {
   "name": "@types/csi-accounts-express",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Typings for csi-accounts-express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/csivit/accounts/csi-accounts-express-types.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@semantic-release/gitlab": "^4.1.0",
+    "@semantic-release/npm": "^5.3.5",
+    "semantic-release": "^15.14.0"
+  }
 }
